@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <!--<form action="success.html" method="get">-->
+    <form action="success.html" method="post">
+    <h1>Sign Up</h1>
+    <label for="name">Name</label><br>
+    <input type="text" name="name" id="name" placeholder="Enter Name" required maxlength="10"><br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="Enter Email" readonly><br>
+    <label for="mobile">Mobile</label><br>
+    <input type="number" name="mobile" id="mobile" placeholder="Enter Mobile Number" disabled><br>
+    <label for="password">Password</label><br>
+    <label for="sex">Sex</label><br>
+    Male : <input type="radio" name="sex" id="male">
+    Female : <input type="radio" name="sex" id="female"><br>
+    <label for="qualification">Qualification</label><br>
+    UG: <input type="checkbox" name="ug" id="ug">
+    PG: <input type="checkbox" name="pg" id="pg">
+    OTH: <input type="checkbox" name="oth" id="oth"><br>
+    <label for="location">Location</label><br>
+    <select name="location" id="location">
+        <option value="bng">Bengaluru</option>
+        <option value="chn">Chennai</option>
+        <option value="del">Delhi</option>
+    </select><br>
+    <label for="dob">Date Of Birth</label><br>
+    <input type="date" name="date" id="date"><br>
+    <label for="password">Password</label><br>
+    <input type="password" name="password" id="password" placeholder="Enter Password"><br>
+    <input type="submit" value="Sign Up">
+</form>
+</body>
+</html>
