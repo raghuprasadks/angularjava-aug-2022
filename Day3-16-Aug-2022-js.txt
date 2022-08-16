@@ -1,0 +1,53 @@
+Java Script
+UI Development
+Programming language
+Browser
+Object based programming language
+TypeScript - Super set of javascript
+Object Oriented programming language
+Angular - Typescript
+
+Javascript
+Node.js - JS server side runtime 
+environment
+
+DOM - Document Object Model
+
+tree 
+
+
+1. Calculation of discount and net payment
+advertisement in a news paper related to
+shopping
+
+purchase_amt<10000 , discount = 10%
+purchase_amt>=10000 purchase_amt<20000, discount = 20%
+purchase_amt>=20000 purchase_amt<30000, discount = 30%
+purchase_amt>=30000 , discount = 35%
+
+Develop an UI to capture purchase amount
+and display net amount and discount
+
+10000
+
+rate = 20
+
+discount = 2000
+
+net pay = 10000-2000 = 8000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

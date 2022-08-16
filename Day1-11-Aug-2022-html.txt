@@ -1,0 +1,33 @@
+Fullstack
+HTML,CSS,Java Script,AJAX,BootStrap
+
+Typescript - super set of java script
+
+Language,library,framework
+RAD
+
+JS - library - paymentgatewary
+Framework - Angular,React
+
+Web 
+1. HTML - Hyper Text Markup Language
+Build web pages
+2. CSS - Cascading Style Sheet
+3. Java Script - Interaction
+
+1-GettingStarted.html
+
+inline elements  - input,a,img
+block level elements - h1...h6..li.ul,div,p
+
+file:///E:/kaushalya.tech/consultancy/operative/batch2-august2022/training/web/success.html?name=raghu&email=prasadraghuks%40gmail.com&mobile=9845547471&sex=on&pg=on&location=bng&date=2022-08-10&password=test
+
+https://www.kaushalya.tech/
+kaushalya.tech
+
+
+
+
+
+
+
