@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Master</title>
+</head>
+<body>
+    <div>
+        <h1>Customer Master</h1>
+        <label for="code">Code</label><br>
+        <input type="number" name="code" id="code"><br>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="mobile">Mobile</label><br>
+        <input type="number" name="mobile" id="mobile"><br>
+        <label for="location">Location</label><br>
+        <input type="text" name="location" id="location"><br>
+        <button onclick="saveCustomer()">Save Customer</button>
+    </div>
+    <script>
+        customers=[]
+
+        function customer(code,name,mobile,location){
+            this.code = code;
+            this.name = name;
+            this.mobile =mobile;           
+            this.location = location;
+        }
+
+
+        function saveCustomer(){
+            console.log('saveCustomer')
+            
+            code =document.getElementById("code").value
+            
+            
+            name =document.getElementById("name").value
+            mobile =document.getElementById("mobile").value
+            location =document.getElementById("location").value
+            
+            console.log("code ",location)
+            /**
+            cust = new customer(code,name,mobile,location)
+            customers.push(cust)
+            console.log(customers)
+            **/
+        }
+
+    </script>
+</body>
+</html>
