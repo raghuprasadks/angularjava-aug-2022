@@ -19,6 +19,10 @@
         <input type="text" name="location" id="location"><br>
         <button onclick="saveCustomer()">Save Customer</button>
     </div>
+    <div>
+        <table id="result"></table>
+
+    </div>
     <script>
         customers=[]
 
@@ -33,20 +37,29 @@
         function saveCustomer(){
             console.log('saveCustomer')
             
-            code =document.getElementById("code").value
-            
-            
+            code =document.getElementById("code").value 
+            console.log("code ",code)
             name =document.getElementById("name").value
-            mobile =document.getElementById("mobile").value
-            location =document.getElementById("location").value
-            
-            console.log("code ",location)
-            /**
-            cust = new customer(code,name,mobile,location)
+            console.log("name ",name)
+            mobile1 =document.getElementById("mobile").value
+            console.log("mobile ",mobile1)
+            location1 =document.getElementById("location").value
+            console.log("location ",location1)                      
+           
+            cust = new customer(code,name,mobile1,location1)
             customers.push(cust)
             console.log(customers)
-            **/
+            displayCustomer()
         }
+
+        function displayCustomer(){
+            data = `<tr><th>Code</th><th>Name</th><th>Mobile</th><th>Location</th></tr>`
+            for (i=0;i<customers.length;i++){
+                cust = customers[i]
+                data = data +`<tr><td>${cust.code}</td><td>${cust.name}</td><td>${cust.mobile}</td><td>${cust.location}</td></tr>`
+            }
+            document.getElementById("result").innerHTML=data
+        }   
 
     </script>
 </body>
