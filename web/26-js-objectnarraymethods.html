@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object N Array</title>
+</head>
+<body>
+
+    <h1>Object N array</h1>
+    <script>
+
+const pi = 3.143
+console.log("before ",pi)
+//pi=3.1434 error
+//console.log("after update ",pi)
+const person = {
+  fname:"John",
+  lname:"Doe",
+  age:25
+}; 
+person.fname="raghu"
+person.lname="prasad"
+person.gender = "male"
+
+
+let txt = "";
+for (let x in person) {
+  txt += person[x] + " ";
+}
+console.log(txt)
+/** throws error
+person = {
+  fname:"ravi",
+  lname:"kiran",
+  age:25
+}; 
+
+console.log("person fname "+person.fname)
+**/
+
+const runs = [20,30,40,50]
+runs.push(60)
+console.log("after push ",runs)
+/** throws error
+runs = [30,94,30]
+console.log("after reassign ",runs)
+**/
+
+console.log("nested objects")
+
+people = {
+    name:"ravi",
+    age:24,
+    address:{hno:1084,name:"xyz"}
+}
+
+console.log("address ",people.address )
+
+
+console.log('for each ')
+
+marks = [20,18,30,40]
+
+function display(value,index,arr){
+    console.log("value " ,value,"index ",index, "array ",arr)
+}
+
+marks.forEach(display)
+
+function mapfunction(value){
+    return value*2
+}
+marksupd =marks.map(mapfunction)
+
+console.log("marks ",marks)
+console.log("marksupd ",marksupd)
+
+age=[19,16,18,22,45]
+
+function eligibiligyToVote(num){
+    return num>=18
+}
+
+ageElgi =age.filter(eligibiligyToVote)
+console.log("ageElgi ",ageElgi)
+console.log("original age ",age)
+
+
+function reducefunc(total,value){
+    return total +value
+}
+
+total = age.reduce(reducefunc)
+console.log("total ",total)
+/**
+ * some,any,indexOf,lastIndexOf 
+ * /
+    </script>
+</body>
+</html>
