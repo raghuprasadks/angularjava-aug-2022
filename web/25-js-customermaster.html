@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer Master</title>
+    <style>
+        th{
+            border:1px solid blue;
+            border-collapse: collapse;
+        }
+        td{
+            border:1px solid lightsteelblue;
+        }
+        table{
+            border:1px solid brown;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -31,8 +43,10 @@
             this.name = name;
             this.mobile =mobile;           
             this.location = location;
+            this.info = function(){
+                return `Code : ${this.code} Name : ${this.name}`
+            }
         }
-
 
         function saveCustomer(){
             console.log('saveCustomer')
@@ -56,6 +70,7 @@
             data = `<tr><th>Code</th><th>Name</th><th>Mobile</th><th>Location</th></tr>`
             for (i=0;i<customers.length;i++){
                 cust = customers[i]
+                console.log(cust.info())
                 data = data +`<tr><td>${cust.code}</td><td>${cust.name}</td><td>${cust.mobile}</td><td>${cust.location}</td></tr>`
             }
             document.getElementById("result").innerHTML=data
