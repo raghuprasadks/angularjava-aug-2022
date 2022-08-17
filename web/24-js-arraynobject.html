@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array N Object</title>
+</head>
+<body>
+    <h1>Array n object</h1>
+    <script>
+
+        cust1 = {
+            code:1,
+            name:"suresh",
+            mobile:9999999,
+            email:'suresh@gmail.com',
+            location:"bengaluru"
+        }
+        console.log("cust1 ",cust1)
+
+        customers=[
+            {
+                code:1,
+                name:"suresh",
+                mobile:9999999,
+                email:'suresh@gmail.com',
+                location:"bengaluru"
+            },
+            {
+                code:2,
+                name:"ramesh",
+                mobile:8999999,
+                email:'ramesh@gmail.com',
+                location:"mysore"
+            }
+        ]
+
+
+        for (i=0;i<customers.length;i++){
+            console.log("Code :", customers[i].code," Name : ",customers[i].name);
+        }
+
+        // Object constructor
+        console.log('Object constructure')
+        function customer(code,name,mobile,email,location){
+            this.code = code;
+            this.name = name;
+            this.mobile =mobile;
+            this.email = email;
+            this.location = location;
+        }
+
+        customer1 = new customer(1,"ravi",93939393,'ravi@gmail.com','bengaluru');
+        customer2 = new customer(2,"suresh",93939394,'suresh@gmail.com','mysore');
+        customersarray=[]
+        customersarray.push(customer1)
+        customersarray.push(customer2)
+        for (i=0;i<customersarray.length;i++){
+            cust = customersarray[i]
+            console.log("Code ",cust.code, " Name : ",cust.name)
+        }
+    </script>    
+</body>
+</html>

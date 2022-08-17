@@ -36,6 +36,27 @@ discount = 2000
 
 net pay = 10000-2000 = 8000
 
+2. Calculation of electricity bill payment
+upto <=100 units - 1 INR/Unit
+>100 to <=200 - 2 INR/Unit
+>200 to <=300 - 3 INR/Unit
+>300 - 5 INR/Unit
+
+Calculation is cumulative
+
+Sample calculation
+50 units - 50 X 1= 50
+150 units - 100 X 1 + 50 X 2 = 200
+250 units - 100 X 1 + 100 X 2 +50 X3 = 450
+
+Develop an User interface to
+accept
+Meter Number - 
+Name -
+Units Consumed -
+<Calculate>
+Display Bill amount
+
 
 
 
