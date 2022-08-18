@@ -1,0 +1,38 @@
+Agenda:
+JSON - Java Script Object Notation
+Server and client
+XML - Extended Markup Language
+JSON
+employee=[
+{
+"code":1,
+"name":"ravi",
+"dept":"IT"
+},
+{
+"code":1,
+"name":"ravi",
+"dept":"IT",
+"address":{"hno":100,"name":"Shankara"}
+}
+]
+Web Services
+RESTFul webservices - http
+fake api - json placeholder
+http://jsonplaceholder.typicode.com/
+SOAP
+API - Application Programming Interface
+
+
+Aadhar
+AJAX
+FetchAPI
+all users
+http://jsonplaceholder.typicode.com/users
+one users
+http://jsonplaceholder.typicode.com/users/1
+
+get,post,put and delete
+http verbs
+
+
