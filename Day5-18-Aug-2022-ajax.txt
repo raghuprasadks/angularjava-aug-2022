@@ -31,8 +31,14 @@ all users
 http://jsonplaceholder.typicode.com/users
 one users
 http://jsonplaceholder.typicode.com/users/1
-
 get,post,put and delete
 http verbs
+
+api - http://jsonplaceholder.typicode.com/users
+display on click of Display User button
+name,email,city,phone,company name
+https://www.topcoder.com/thrive/articles/fetch-api-javascript-how-to-make-get-and-post-requests
+
+
 
 
