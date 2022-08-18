@@ -16,11 +16,10 @@
         <input type="text" name="title" id="title"><br>
         <button onclick="addTodo()">Add Todos</button><br>
         <table id="result"></table>
-
         
     </div>
     <script>
-
+        let todosarray=[]
 function getTodos()
         {
             fetch('https://jsonplaceholder.typicode.com/todos/')
@@ -30,6 +29,8 @@ function getTodos()
         }
 
         function displayData(todos){
+            todosarray= todos
+            console.log("array length ::",todosarray.length)
             data = "<tr><th>User Id</th><th>Id</th><th>Title</th><th>Completed</th></tr>"
             for (i=0;i<todos.length;i++){
                 todo = todos[i]
@@ -55,8 +56,15 @@ function getTodos()
             }
             })
             .then(response => response.json())
-                .then(json => console.log(json))
-               // .then(json => displayData(json))
+                //.then(json => console.log(json))
+                .then(json => appendTodos(json))
+            }
+
+            function appendTodos(json){
+                json.id=todosarray.length+1
+                todosarray.push(json)
+                displayData(todosarray)
+
             }
 
     </script>
