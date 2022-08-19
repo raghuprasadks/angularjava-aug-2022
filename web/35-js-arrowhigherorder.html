@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher Order Functions</title>
+</head>
+<body>
+    <h1>Arrow Functions with map,filter..etc</h1>
+    <script>
+        console.log("with out filter")
+        marks = [10,13,21,22,15,17]
+        temp=[]
+        for(i=0;i<marks.length;i++){
+            if(marks[i]<15)
+                temp.push(marks[i])
+        }
+
+        console.log("marks lessthan 15",temp)
+        console.log("with filter")
+
+        function lessthan15(mark){
+            return mark<15
+        }
+
+        arrylessthan15 =marks.filter(lessthan15)
+
+        console.log("arrylessthan15",arrylessthan15)
+
+        console.log("arrow function")
+
+        markaflessthan15= marks.filter((mark)=>mark<15)
+        console.log("markaflessthan15",markaflessthan15)
+    </script>
+</body>
+</html>
