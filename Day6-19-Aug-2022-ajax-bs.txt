@@ -20,3 +20,15 @@ Grid based system
 12 grids
 explore upto 
 upto jumbotran
+
+1.Create an array of objects 
+of top 5 countries of common 
+wealth games 2022.
+https://www.sportstiger.com/news/commonwealth-games-2022-medal-tally
+
+a. Display countries which got gold
+more than 20
+b. Add 1 extra bronze to all country
+ 
+
+

@@ -19,19 +19,15 @@
 
         console.log("marks lessthan 15",temp)
         console.log("with filter")
-
         function lessthan15(mark){
             return mark<15
         }
-
         arrylessthan15 =marks.filter(lessthan15)
-
         console.log("arrylessthan15",arrylessthan15)
-
         console.log("arrow function")
-
-        markaflessthan15= marks.filter((mark)=>mark<15)
-        console.log("markaflessthan15",markaflessthan15)
+      //  markaflessthan15= marks.filter((mark)=>mark<15)
+      markaflessthan15= marks.filter(mark=>mark<15)  
+      console.log("markaflessthan15",markaflessthan15)
     </script>
 </body>
 </html>
