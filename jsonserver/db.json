@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "test",
+      "desc": "test desc",
+      "price": 0
+    },
+    {
+      "id": 1,
+      "name": "mobile",
+      "desc": "smart phone",
+      "price": 40000
+    },
+    {
+      "name": "tv",
+      "desc": "sony 56",
+      "price": 60000,
+      "id": 2
+    }
+  ]
+}

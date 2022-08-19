@@ -28,6 +28,24 @@
       //  markaflessthan15= marks.filter((mark)=>mark<15)
       markaflessthan15= marks.filter(mark=>mark<15)  
       console.log("markaflessthan15",markaflessthan15)
+        medals=[
+                {
+                    country:"India",
+                    gold:22,
+                    silver:23,
+                    bronze:20
+                },
+                {
+                    country:"Australiz",
+                    gold:50,
+                    silver:55,
+                    bronze:50
+                }
+    ]
+    console.log("map")
+    console.log(medals.map(medal=>medal.bronze = medal.bronze++))
+    //console.log(upd)
+    //console
     </script>
 </body>
 </html>

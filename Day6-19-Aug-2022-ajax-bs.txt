@@ -1,4 +1,5 @@
 https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
+https://www.w3schools.com/css/css3_flexbox.asp
 https://www.w3schools.com/css/css3_images.asp
 https://www.topcoder.com/thrive/articles/fetch-api-javascript-how-to-make-get-and-post-requests
 
@@ -28,7 +29,27 @@ https://www.sportstiger.com/news/commonwealth-games-2022-medal-tally
 
 a. Display countries which got gold
 more than 20
-b. Add 1 extra bronze to all country
- 
+b. Add 1 extra bronze to every country
+
+node - java script server side runtime environment
+npm - node package manager
+
+json-server
+https://www.npmjs.com/package/json-server
+npm install -g json-server
+
+1. create folder jsonserver
+2. create db.json file
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "test",
+      "desc": "test desc",
+      "price": 0
+    }]
+3. cd jsonserver in the command prompt issue following 
+npx json-server --watch db.json --port 3000
+
 
 
