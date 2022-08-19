@@ -39,6 +39,27 @@ display on click of Display User button
 name,email,city,phone,company name
 https://www.topcoder.com/thrive/articles/fetch-api-javascript-how-to-make-get-and-post-requests
 
+before
+
+{
+	userId:1
+	title :task 3
+}
+after
+
+JSON.stringify(
+{
+	userId:1
+	title :task 3
+}
+)
+
+
+{
+	"userId":1
+	"title" :task 3
+}
+
 
 
 

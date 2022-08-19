@@ -32,9 +32,11 @@ function getTodos()
             todosarray= todos
             console.log("array length ::",todosarray.length)
             data = "<tr><th>User Id</th><th>Id</th><th>Title</th><th>Completed</th></tr>"
-            for (i=0;i<todos.length;i++){
-                todo = todos[i]
-                data = data +`<tr><td>${todo.userId}</td><td>${todo.id}</td><td>${todo.title}</td><td>${todo.completed}</th></tr>`
+            //for (i=0;i<todos.length;i++){
+            for (i=0;i<todosarray.length;i++){
+                todo = todosarray[i]
+                console.log("todo id ",todo.id)
+                data = data +`<tr><td>${todo.userId}</td><td>${todo.id}</td><td>${todo.title}</td><td>${todo.completed}</td><td><button onclick=deleteTodo(i)>Delete</button></td></tr>`
                 document.getElementById("result").innerHTML=data
                 }
 
@@ -61,10 +63,14 @@ function getTodos()
             }
 
             function appendTodos(json){
+                console.log('appendtodos ',json)
                 json.id=todosarray.length+1
                 todosarray.push(json)
                 displayData(todosarray)
+            }
 
+            function deleteTodo(id){
+                console.log("id is ",id)
             }
 
     </script>

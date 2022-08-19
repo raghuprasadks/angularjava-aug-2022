@@ -1,0 +1,19 @@
+https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
+https://www.w3schools.com/css/css3_images.asp
+https://www.topcoder.com/thrive/articles/fetch-api-javascript-how-to-make-get-and-post-requests
+
+Agenda:
+Bootstrap
+json-server
+lamdba functions
+clarifications
+
+
+Boostrap - CSS framework
+Mobile first approach
+Responsive web application
+media queries
+Twitter bootstrap
+html,css,js,jquery
+Grid based system
+12 grids
