@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions</title>
+</head>
+<body>
+
+    <h1>Arrow Functions</h1>
+    <script>
+
+        function greet(){
+            console.log('Welcome  to arrow functions')
+        }
+
+        greet()
+
+        let greetArrow = ()=>{
+            console.log('arrow function')
+        }
+
+        greetArrow()
+
+        function add(n1,n2){
+            return n1+n2
+        }
+
+        result = add(100,150)
+        console.log("result of addition ",result)
+    
+        addarrow=(n1,n2)=>n1+n2
+        result = addarrow(100,130)
+        console.log('add arrow ',result)
+    
+        marks=[20,30,40,50]
+
+        marksgt30 = marks.filter((mark)=>mark>30)
+        console.log(marksgt30)
+
+        function marksgtthirty(mark){
+            return mark>30
+        }
+
+        marksgtthirtyfilter = marks.filter(marksgtthirty)
+        console.log(marksgtthirtyfilter)
+    
+    </script>
+    
+</body>
+</html>
