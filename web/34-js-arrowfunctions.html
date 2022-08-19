@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions</title>
+</head>
+<body>
+
+    <h1>Arrow Functions</h1>
+    <script>
+        function greet(){
+            console.log('regular function')
+        }
+
+        greet()
+
+        hello = function(){
+            console.log("hello")
+        }
+
+        hello()
+
+        /**
+         * Arrow functions
+         **/
+
+        helloaf= ()=>{
+            console.log("hello arrow function")
+        }
+
+        helloaf()
+
+        console.log("arrow function with parameter")
+
+        add = function (n1,n2){
+            return n1+n2
+        }
+
+        result = add(10,15)
+
+        console.log("result of addition is ",result)
+
+        addaf=(n1,n2)=>n1+n2
+        result = addaf(10,15)
+        console.log("result of addition using arrow function is ",result)
+
+        si= (p,r,t)=>(p*r*t)/100
+
+        interest = si(10000,4,1)
+
+        console.log("simple interest ",interest)
+
+
+        sqlnum = (n1)=>{
+            console.log("square of a number")
+            return n1*n1
+        }
+
+        result = sqlnum(10)
+        console.log("multiple statements ",result)
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

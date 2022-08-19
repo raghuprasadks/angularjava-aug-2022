@@ -4,8 +4,9 @@ https://www.topcoder.com/thrive/articles/fetch-api-javascript-how-to-make-get-an
 
 Agenda:
 Bootstrap
+arrow function (lamdba functions)
+nameless function
 json-server
-lamdba functions
 clarifications
 
 
