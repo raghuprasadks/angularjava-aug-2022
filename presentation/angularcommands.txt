@@ -1,0 +1,7 @@
+1. Install angular
+npm install -g @angular/cli
+ng --version
+2. Creating new app
+ng new angularbasics
+code .
+ng serve --open

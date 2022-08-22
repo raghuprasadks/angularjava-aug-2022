@@ -1,0 +1,52 @@
+1. User - > Getting Started,Properties,methods,Data Types,Interpolation
+2. User 1 - > Object
+3. User 2 - >Interface
+4. Directives : ngFor & ngIf
+5. Boot Strap
+
+
+npm install bootstrap@4.0.0-beta.2 jquery popper.js --save
+npm install --save font-awesome
+
+Files to modify
+angular-cli.json
+
+"styles": [
+        "styles.css",
+        "../node_modules/font-awesome/css/font-awesome.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.css"
+      ],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/popper.js/dist/umd/popper.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js"
+      ],
+
+https://www.npmjs.com/package/angular-font-awesome
+
+
+
+6. Property Binding
+7. Class binding
+8. Style binding
+9. Pipes - Custom pipes
+https://angular.io/guide/pipes
+10. Mouse Event
+
+https://cli.angular.io/
+https://github.com/angular/angular-cli/wiki
+
+https://stackoverflow.com/questions/50290197/how-to-add-bootstrap-in-angular-6-project
+11. Key Board Event (copy)
+
+12. Form Validation
+https://angular.io/guide/form-validation
+https://angular.io/guide/forms
+https://angular.io/api/core/ViewChild
+https://www.concretepage.com/angular-2/angular-2-viewchild-example
+13. Form Validation
+
+14. Service
+15. Observable
+16. HttpGet
+17. HttpPost

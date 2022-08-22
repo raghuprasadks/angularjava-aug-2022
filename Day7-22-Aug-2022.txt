@@ -1,0 +1,52 @@
+C:\Users\lenovo\AppData\Roaming\npm
+Angular
+Angular cli
+1. Installation of angular cli
+npm install -g @angular/cli
+2. Create angular application
+ng new ngbasics
+3. Command to execute project
+cd ngbasics
+code .
+ng serve --open
+package.json
+
+http://localhost:4200/
+
+Flow-
+angular.json
+
+"index": "src/index.html",
+            "main": "src/main.ts",
+
+index.html
+<app-root></app-root>
+
+main.ts
+AppModule
+app.module.ts
+AppComponent
+app.component.ts
+selector: 'app-root'
+app.component.html
+
+databinding
+interpolation
+{{title}}
+
+ng g component first
+
+C:\Users\lenovo\AppData\Roaming\npm
+npm config get prefix
+            
+
+create a folder called angulartraining
+
+1. create angulardemo project
+cd angulartraining
+ng new angulardemo
+2. create a component called datatypes
+
+
+
+

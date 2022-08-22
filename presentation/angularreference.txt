@@ -1,0 +1,114 @@
+npm install -g typescript
+https://code.visualstudio.com/docs/languages/typescript
+//compile
+tsc program.ts
+// run
+node program.js
+1. Installation of angular cli
+npm install -g @angular/cli
+ng v
+ng --version
+2. Angular-cli git
+https://github.com/angular/angular-cli
+3. Create new project
+ng new angularapp
+
+npm install
+4. code . to open in visual studio
+5. Open integrated terminal - > View - >Integrated terminal
+npm install font-awesome --save
+6. ng help
+7. ng build
+8. ng generate  or ng g
+9. ng serve
+10. ng serve --open
+
+ng g component .\components\gettingstarted --module=app.module
+ng g component .\components\user --module=app.module
+
+11. Augury chrome extension
+12. Introduction to typescript - started in angular2
+
+13. Adding boot strap
+
+npm install bootstrap@4.0.0-beta.2 jquery popper.js --save
+Files to change
+
+
+14.In package.json remove ^ so that only 4.0.0 version is used.
+15. Add the installed packages in angular.json
+"styles": [
+              "styles.css",
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css"              
+            ],
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/popper.js/dist/umd/popper.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ],
+
+16. Installation of AWESOME FONT
+17. Setting up service
+ng g s services/data --module=app.module
+ng g s services/dataobservable --module=app.module
+
+18. component without specification
+ng g c components/log-form --spec false
+19. Creating a module
+a. ng g m app-routing --flat --module=app
+b. changes in the app.component.html
+i,e adding <router-outlet></router-outlet>
+c. add home component
+ng g c d--spec=false
+d. update app-routing module
+e. create users,posts,post-form components
+
+-- linking routes
+f. change home component and navbarbootstrap component
+-- params and activate route
+create post component
+add this to app-routingmodule.ts
+change in posts html
+
+--- not-found component
+
+app-routing module
+
+---
+
+-- rxjx error
+import { Observable,of } from 'rxjs';
+https://codecraft.tv/courses/angular/built-in-directives/ngstyle-and-ngclass/
+
+@ViewChild('userForm',{static: true}) form: any;
+
+npm install --save rxjs-compat
+
+Bootstrap in angular 8
+https://medium.com/@oyewusioyekunle/how-to-add-bootstrap-to-your-angular-project-angular-8-6379fd6a0f46
+
+npm install bootstrap --save
+npm install jquery --save
+
+npm install popper.js --save
+
+https://www.pluralsight.com/guides/attribute-class-style-bindings-angular
+https://www.pluralsight.com/guides/property-binding-angular
+
+https://www.freecodecamp.org/news/angular-directives-learn-how-to-use-or-create-custom-directives-in-angular-c9b133c24442/
+
+https://www.geeksforgeeks.org/angular-7-observables/
+
+https://www.youtube.com/watch?v=qH9RHHmzvIA&t=626s
+
+https://www.digitalocean.com/community/tutorials/angular-reactive-forms-introduction
+https://dzone.com/articles/how-to-create-a-multi-field-data-filters-innbspang-1
+
+https://github.com/haykoyaghubyan/angular-data-filters
+
+https://medium.com/@ThatGuyTinus/callbacks-vs-promises-vs-async-await-f65ed7c2b9b4
+
+https://alligator.io/js/async-functions/#:~:text=Simple%20Example&text=await%20is%20a%20new%20operator,used%20inside%20an%20async%20function.&text=%3C%2D%2D%20after%20500ms-,Promise.,passed%2Din%20promises%20have%20resolved.
+
+https://www.tektutorialshub.com/angular/angular-template-driven-forms/
