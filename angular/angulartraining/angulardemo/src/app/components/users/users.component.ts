@@ -8,6 +8,7 @@ import { User } from 'src/app/models/User';
 })
 export class UsersComponent implements OnInit {
   users:User[]=[]
+  show:boolean=false;
   constructor() { }
 
   ngOnInit(): void {

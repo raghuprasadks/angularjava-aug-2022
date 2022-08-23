@@ -4,10 +4,23 @@
     <h1>First User -{{users[0].name}}</h1>
     <h1>First User -{{users[0].email}}</h1>
 </div>
-
+<div *ngIf="show">
 <ul *ngFor="let user of users">
     <li>{{user.name}}</li>
     <li>{{user.email}}</li>
     <li>{{user.mobile}}</li>
     <li>{{user.location}}</li>
 </ul>
+</div>
+<table>
+    <tr><th>Name</th><th>Email</th><th>Mobile</th><th>Location</th></tr>
+    <tr *ngFor="let user of users">
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.mobile}}</td>
+        <td>{{user.location}}</td>
+
+    </tr>
+</table>
+
+
