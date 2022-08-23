@@ -1,0 +1,27 @@
+Recap:
+Angular
+npm install -g @angular/cli
+ng serve --open
+ng g component <component name>
+ng g c <component name>
+Data types in typescript
+string,number,boolean
+array of string
+tuple
+any
+age='22'
+typeof()
+age=22
+age:number=22
+components
+model
+databinding
+property binding
+4.20 pm
+programming
+
+1. Create a user component
+inside components folder
+2. ng g c components/user
+
+
