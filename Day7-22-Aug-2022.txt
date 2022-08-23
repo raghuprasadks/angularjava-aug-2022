@@ -48,5 +48,90 @@ ng new angulardemo
 2. create a component called datatypes
 
 
+Recap
+
+htmp - form elements
+input type - text,number,radio,checkbox,email,password
+form method get,post
+action
+disabled,required
+iframe
+
+table,tr,td
+li/ul
+block level - div,p,h1..h6..
+inline - a,img,span
+css
+display:none
+
+CSS
+inline,internal,external
+
+# id
+. class
+element selectors input,h1...div
+.css
+
+javascript
+number,string,boolean,object
+
+Array.isArray()
+
+array - sort,push,pop,shift,unshift,indexof,lastindexof
+length,join
+filter,foreach,reduce,map
+object --prototype
+
+
+emp={
+code:1,
+name:"ravi",
+display : function(){
+return name
+}
+}
+
+emp.prototype.sal = 1000
+emp.prototype.test = function(){
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
