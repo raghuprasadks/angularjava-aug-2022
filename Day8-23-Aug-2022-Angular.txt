@@ -23,5 +23,8 @@ programming
 1. Create a user component
 inside components folder
 2. ng g c components/user
+3. create a folder models under app folder
+4. create a file User.ts inside models
+
 
 
