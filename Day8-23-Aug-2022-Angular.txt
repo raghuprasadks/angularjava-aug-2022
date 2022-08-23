@@ -25,6 +25,26 @@ inside components folder
 2. ng g c components/user
 3. create a folder models under app folder
 4. create a file User.ts inside models
+1.create a model
+Employee
+having properties
+code number
+name,dept,desg as string
+sal as number
+2. Create Employee Component (inside components folder)
+Populate the data using employee model
+and display data in employee component.html
+
+3. *ngFor, *ngIf
+
+Structural directive *ngFor, *ngIf
+Attribute directives - ngStyle ,ngClass
+
+4. Create users component
+ng g c components/users
+
+
+
 
 
 

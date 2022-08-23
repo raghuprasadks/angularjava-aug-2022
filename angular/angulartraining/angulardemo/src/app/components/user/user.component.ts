@@ -14,7 +14,6 @@ export class UserComponent implements OnInit {
   mobile:number=0;
   location:string="";
   */
-
   user:User={
     name:"",
     email:"",
@@ -29,7 +28,6 @@ export class UserComponent implements OnInit {
     this.mobile=9000000;
     this.location="Bengaluru"
  */
-
     this.user={
       name:"suresh",
       email:"suresh@gmail.com",
