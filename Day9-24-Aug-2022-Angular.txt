@@ -34,3 +34,17 @@ property binding - []
 property binding
 event binding
 
+
+Assignment
+
+create eventcomponent
+add two buttons - 
+set a property called counter to 0
+increment
+decrement
+on click of increment button - add two to counter
+and diplay increment - value the counter
+on click of decrement button - subtract one from the counter
+and display decrement - value of the counter
+
+
