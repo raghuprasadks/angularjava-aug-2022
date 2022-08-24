@@ -1,0 +1,10 @@
+<h1>Simple Interest Calculator</h1>
+
+<input type="text" name="principal" id="principal" [(ngModel)]="principal" placeholder="Enter principal amount">
+<input type="text" name="roi" id="roi" [(ngModel)]="roi" placeholder="Enter Rate Of Interes ">
+<input type="text" name="time" id="time" [(ngModel)]="time" placeholder="Enter Time in years "><br>
+<button (click)="calculateSI()">Calculate</button>
+<h1> Simple Interest is - method 1 {{principal*roi*time/100}}</h1>
+<h1> Simple Interest is - method 2 {{si}}</h1>
+
+

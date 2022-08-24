@@ -8,6 +8,7 @@ import { UserComponent } from './components/user/user.component';
 import { UsersComponent } from './components/users/users.component';
 import { DatabindingComponent } from './components/databinding/databinding.component';
 import { FormsModule } from '@angular/forms';
+import { SimpleinterestComponent } from './components/simpleinterest/simpleinterest.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     DatatypesComponent,
     UserComponent,
     UsersComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    SimpleinterestComponent
   ],
   imports: [
     BrowserModule,
