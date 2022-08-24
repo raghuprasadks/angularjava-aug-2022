@@ -11,6 +11,10 @@ export class SimpleinterestComponent implements OnInit {
   roi:number=0
   time:number=0
   si:number=0
+  h:number=100
+  w:number=200
+  t:string="testing"
+  sty:string = "color:red"
   constructor() { }
 
   ngOnInit(): void {

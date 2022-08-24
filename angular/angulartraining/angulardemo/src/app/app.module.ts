@@ -9,6 +9,7 @@ import { UsersComponent } from './components/users/users.component';
 import { DatabindingComponent } from './components/databinding/databinding.component';
 import { FormsModule } from '@angular/forms';
 import { SimpleinterestComponent } from './components/simpleinterest/simpleinterest.component';
+import { NgstyleComponent } from './components/ngstyle/ngstyle.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { SimpleinterestComponent } from './components/simpleinterest/simpleinter
     UserComponent,
     UsersComponent,
     DatabindingComponent,
-    SimpleinterestComponent
+    SimpleinterestComponent,
+    NgstyleComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+<h1 style="color:blue;text-align:center">CSS way of Styling</h1>
+<h1 [ngStyle]="{'color':'blue','text-align':'center'}">ngStyle way of Styling</h1>
+
+<h1>Dynamic style - method 1</h1>
+<ul *ngFor="let person of people">
+    <li [ngStyle]="{'color':person.country==='UK'?'green':'blue'}">{{person.name}} {{person.country}}</li>
+</ul>
+
+<h1>ngstyle - dynamic style - method 2</h1>
+<ul *ngFor="let person of people">
+    <li [ngStyle]="{'color':getColor(person.country)}"> {{ person.name }} ({{ person.country }})
+    </li>
+</ul>

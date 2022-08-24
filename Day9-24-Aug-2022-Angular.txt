@@ -47,4 +47,16 @@ and diplay increment - value the counter
 on click of decrement button - subtract one from the counter
 and display decrement - value of the counter
 
+structural directive - ngFor ,ngIf
+attribute directives
+
+p title
+p style
+disbled
+image src
+
+style
+ngStyle
+
+ng g c components/ngstyle
 
