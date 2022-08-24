@@ -1,0 +1,15 @@
+<p>Data binding - one way data binding-interpolation</p>
+<p>Name : {{name}}</p>
+<p>Email : {{email}}</p>
+<p>Mobile : {{mobile}}</p>
+<p>Location : {{location}}</p>
+<label for="name">Name</label><br>
+<input type="text" name="name" id="name" value="{{name}}"><br>
+<label for="email">Email</label><br>
+<input type="text" name="email" id="email" value="{{email}}"><br>
+
+<label for="mobile">Mobile</label><br>
+<input type="number" name="mobile" id="mobile" value="{{mobile}}"><br>
+<label for="location">Location</label><br>
+<input type="text" [(ngModel)]="location">
+<button (click)="saveData()" [disabled]="isInActive">Submit</button>

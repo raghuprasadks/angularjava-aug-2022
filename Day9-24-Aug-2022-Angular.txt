@@ -1,0 +1,36 @@
+Clarification
+
+fetch(url).
+then(response=json)
+then(json=>function(json))
+post(url,post,header)
+put(url/id
+
+
+get-url- localhost:3000/corona
+post -url - localhost:3000/corona
+delete - url - localhost:3000/corona/`${{corona.id}}`
+update url -url same as that of delete,send the updated
+data
+https://jasonwatmore.com/post/2021/09/21/fetch-http-delete-request-examples
+https://jasonwatmore.com/post/2021/09/20/fetch-http-put-request-examples
+
+Agenda:
+Data binding - inter polation - 
+one way data binding - component to template
+two way data binding - 
+template - component
+component - template
+ngModel - directive
+
+ng g c components/databinding
+
+event binding - ()
+property binding - []
+
+[()] - two way data binding - banana in a box
+
+
+property binding
+event binding
+

@@ -6,17 +6,22 @@ import { AppComponent } from './app.component';
 import { DatatypesComponent } from './datatypes/datatypes.component';
 import { UserComponent } from './components/user/user.component';
 import { UsersComponent } from './components/users/users.component';
+import { DatabindingComponent } from './components/databinding/databinding.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     DatatypesComponent,
     UserComponent,
-    UsersComponent
+    UsersComponent,
+    DatabindingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
