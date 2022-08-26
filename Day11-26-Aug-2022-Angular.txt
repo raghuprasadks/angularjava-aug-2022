@@ -1,0 +1,52 @@
+Agenda:
+Forms - 
+Template Driven Form -
+the logic of form elements creation
+is in the template
+Reactive Form - the logic of 
+form elements creation is in the 
+component
+Services
+
+One-way-data binding
+two-way-data binding
+ngModel
+FormsModule- template driven form
+
+1. Template driven form
+
+Step 1 - ng g c components/templateform
+
+#signUpForm - template reference 
+
+2. Enhance this component by adding
+sex - radio 
+date of birth - date
+qualification - check box
+location - drop down
+Remarks - text area
+
+
+
+<input _ngcontent-etm-c48="" type="text" name="name" ngmodel="" ng-reflect-name="name" ng-reflect-model="" class="ng-untouched ng-pristine ng-valid">
+
+
+Valid,invalid,touched,untouched,dirty,prestine
+
+
+Services
+Dependency Injection
+
+ng g s services/signup
+
+Injectable
+
+tight coupling
+loose coupling
+
+
+
+
+
+
+
