@@ -8,8 +8,10 @@
     </div>
     <div>
         <label>Email</label>
-        <input type="email" name="email" ngModel required #emailCtrl="ngModel">
-        <p *ngIf="emailCtrl.touched && !emailCtrl.valid">Email is mandatory</p>
+        <input type="email" name="email" ngModel required email #emailCtrl="ngModel">
+        <p *ngIf="emailCtrl.touched && emailCtrl.errors?.['required']">Email is mandatory</p>
+      <!--  <p *ngIf="emailCtrl.touched && emailCtrl.errors?.['email']">Email is invalid</p> -->
+      <p *ngIf="emailCtrl.errors && emailCtrl.errors?.['email'] && emailCtrl.touched">Email Address should be valid</p>
     </div>
     <div>
         <label>Mobile</label>
