@@ -10,6 +10,7 @@ import { DatabindingComponent } from './components/databinding/databinding.compo
 import { FormsModule } from '@angular/forms';
 import { SimpleinterestComponent } from './components/simpleinterest/simpleinterest.component';
 import { NgstyleComponent } from './components/ngstyle/ngstyle.component';
+import { TemplateformComponent } from './components/templateform/templateform.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { NgstyleComponent } from './components/ngstyle/ngstyle.component';
     UsersComponent,
     DatabindingComponent,
     SimpleinterestComponent,
-    NgstyleComponent
+    NgstyleComponent,
+    TemplateformComponent
   ],
   imports: [
     BrowserModule,

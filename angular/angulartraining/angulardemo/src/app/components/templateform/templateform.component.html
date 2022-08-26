@@ -1,0 +1,28 @@
+<h1>Template Driven Form</h1>
+
+<form #signUpForm="ngForm" (ngSubmit)="signUp(signUpForm)">
+    <div>
+        <label>Name</label>
+        <input type="text" name="name" >
+    </div>
+    <div>
+        <label>Email</label>
+        <input type="email" name="email" ngModel>
+    </div>
+    <div>
+        <label>Mobile</label>
+        <input type="number" name="mobile" ngModel>
+    </div>
+    <div>
+        <label>Password</label>
+        <input type="password" name="password" ngModel>
+    </div>
+    <div>        
+        <input type="submit" value="Sign Up">
+    </div>
+
+    <div>
+        <h1>Form Data - {{signUpForm.value.email}}</h1>
+    </div>
+
+</form>
