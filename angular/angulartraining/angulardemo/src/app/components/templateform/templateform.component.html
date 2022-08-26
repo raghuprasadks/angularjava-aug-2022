@@ -3,11 +3,13 @@
 <form #signUpForm="ngForm" (ngSubmit)="signUp(signUpForm)">
     <div>
         <label>Name</label>
-        <input type="text" name="name" >
+        <input type="text" name="name" ngModel required #nameCtrl="ngModel">
+        <p *ngIf="!nameCtrl.valid">Name is mandatory</p>
     </div>
     <div>
         <label>Email</label>
-        <input type="email" name="email" ngModel>
+        <input type="email" name="email" ngModel required #emailCtrl="ngModel">
+        <p *ngIf="emailCtrl.touched && !emailCtrl.valid">Email is mandatory</p>
     </div>
     <div>
         <label>Mobile</label>
@@ -15,10 +17,10 @@
     </div>
     <div>
         <label>Password</label>
-        <input type="password" name="password" ngModel>
+        <input type="password" name="password" ngModel required>
     </div>
     <div>        
-        <input type="submit" value="Sign Up">
+        <input type="submit" value="Sign Up" [disabled]="!signUpForm.valid">
     </div>
 
     <div>
