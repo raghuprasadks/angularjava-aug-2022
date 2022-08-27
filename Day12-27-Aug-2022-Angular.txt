@@ -30,3 +30,10 @@ ng g c components/todos
 inject todos service
 
 import HttpClientModule into app.module.ts
+
+Develop a component,services,model
+to list http://jsonplaceholder.typicode.com/photos
+
+
+post method
+

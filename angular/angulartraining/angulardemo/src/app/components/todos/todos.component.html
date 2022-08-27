@@ -1,5 +1,18 @@
 <h1>Todos</h1>
+<form #todoForm="ngForm" (ngSubmit)="addTodo(todoForm)">
 
+    <label for="UserId">User Id</label><br>
+    <input type="number" name="userId" ngModel><br>
+    <label for="id">Id</label><br>
+    <input type="number" name="id" ngModel><br>
+    <label for="title">Title</label><br>
+    <input type="text" name="title" ngModel><br>
+    <label for="status">Status</label><br>
+    <input type="text" name="status" ngModel><br>
+    
+    <input type="submit" value="Add Todo">
+</form>
+<hr>
 <table>
     <tr>
         <th>User Id</th>
