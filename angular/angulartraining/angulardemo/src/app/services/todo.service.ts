@@ -20,7 +20,7 @@ export class TodoService {
     return this.httpClient.get<Todos[]>(this.url)
   }
 
-  addTodo(data:any):Observable<Todos>{
+  addTodo(data:Todos):Observable<Todos>{
     console.log("TodoService:addTodo")
     return this.httpClient.post<Todos>(this.url,data,httpOptions)
   }
