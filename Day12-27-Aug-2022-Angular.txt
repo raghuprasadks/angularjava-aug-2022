@@ -37,3 +37,21 @@ to list http://jsonplaceholder.typicode.com/photos
 
 post method
 
+data sharing between angular components
+
+app.component.html
+<app-todos></add-todos>
+parent and child relationship
+
+@input
+@output
+ViewChild
+Services
+
+
+step 1 - create parent component
+ng g c components/parent
+step 2 - create child component
+ng g c components/child
+
+

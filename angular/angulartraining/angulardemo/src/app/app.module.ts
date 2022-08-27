@@ -13,6 +13,8 @@ import { NgstyleComponent } from './components/ngstyle/ngstyle.component';
 import { TemplateformComponent } from './components/templateform/templateform.component';
 import { TodosComponent } from './components/todos/todos.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ParentComponent } from './components/parent/parent.component';
+import { ChildComponent } from './components/child/child.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { HttpClientModule } from '@angular/common/http';
     SimpleinterestComponent,
     NgstyleComponent,
     TemplateformComponent,
-    TodosComponent
+    TodosComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

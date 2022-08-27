@@ -24,7 +24,11 @@ export class TodosComponent implements OnInit {
 
   addTodo(todo:NgForm):void{
     console.log(todo.value)
-    this.todoService.addTodo(todo.value).subscribe(todo=>console.log(todo))
+    this.todoService.addTodo(todo.value).subscribe(todo=>{
+      console.log(todo)
+      this.todos.push(todo)
+    }
+      )
  
   }
 
