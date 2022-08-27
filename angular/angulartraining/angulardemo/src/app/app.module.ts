@@ -11,7 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { SimpleinterestComponent } from './components/simpleinterest/simpleinterest.component';
 import { NgstyleComponent } from './components/ngstyle/ngstyle.component';
 import { TemplateformComponent } from './components/templateform/templateform.component';
-
+import { TodosComponent } from './components/todos/todos.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,12 +23,14 @@ import { TemplateformComponent } from './components/templateform/templateform.co
     DatabindingComponent,
     SimpleinterestComponent,
     NgstyleComponent,
-    TemplateformComponent
+    TemplateformComponent,
+    TodosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

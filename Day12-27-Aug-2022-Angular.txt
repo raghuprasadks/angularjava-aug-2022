@@ -1,0 +1,32 @@
+Agenda:
+HttpClientModule
+- Make a call to API's
+fetchAPI - Java Script
+CRUD
+Communication between parent and child
+
+Services
+Injected into the component
+Constructure  - injection
+
+ng g services/<name of the service>
+
+jsonplaceholder - todo's
+
+Step 1 - Create todo.ts model
+done
+Step 2 - Create todoservice
+ng g s services/todo
+done
+
+fetchAPI - promise
+Observable
+Steam of data - 
+Publish and Subscribe
+
+Step 3 - Create todos component
+ng g c components/todos
+
+inject todos service
+
+import HttpClientModule into app.module.ts
