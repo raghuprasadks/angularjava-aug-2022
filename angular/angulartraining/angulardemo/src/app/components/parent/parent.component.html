@@ -3,4 +3,7 @@
 <input type="text" name="parentmsg" #msgParent>
 <button (click)="postMessage(msgParent.value)">Post</button>
 
-<app-child [childMessage]="msgFromParent"></app-child>
+<app-child [childMessage]="msgFromParent" (messageEvent)="receiveFromChild($event)"></app-child>
+
+<p>Message from Child</p>
+<p>{{msgFromChild}}</p>

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-child',
@@ -8,9 +8,20 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ChildComponent implements OnInit {
 
   @Input() childMessage:string=''
+
+  @Output() messageEvent = new EventEmitter<string>();
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  sendMsgToParent(msgToParent:string){
+    this.messageEvent.emit(msgToParent)
+  }
+
 }
+function Ouptput() {
+  throw new Error('Function not implemented.');
+}
+

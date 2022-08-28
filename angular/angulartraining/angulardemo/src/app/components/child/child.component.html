@@ -1,3 +1,7 @@
 <p>child works!</p>
 
 <p>Message from parent : {{childMessage}}</p>
+
+<p>Message to the parent</p>
+<input type="text" name="msgToparent" #msgToParent>
+<button (click)="sendMsgToParent(msgToParent.value)">Send Msg</button>

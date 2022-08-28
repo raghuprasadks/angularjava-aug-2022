@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
   //msgFromParent="hi my child"
-  msgFromParent=" "
+  msgFromParent:string=" "
+  msgFromChild:string=" "
   constructor() { }
 
   ngOnInit(): void {
@@ -15,6 +16,11 @@ export class ParentComponent implements OnInit {
 
   postMessage(msg:string):void{
     this.msgFromParent = msg
+  }
+
+  receiveFromChild($event:string){
+    this.msgFromChild=$event
+
   }
 
 }
