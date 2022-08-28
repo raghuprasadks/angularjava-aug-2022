@@ -18,6 +18,8 @@ import { ChildComponent } from './components/child/child.component';
 import { DummyComponent } from './components/dummy/dummy.component';
 import { PromiseComponent } from './components/promise/promise.component';
 import { DemoComponent } from './components/demo/demo.component';
+import { CompanyComponent } from './components/company/company.component';
+import { CompaniesComponent } from './components/companies/companies.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { DemoComponent } from './components/demo/demo.component';
     ChildComponent,
     DummyComponent,
     PromiseComponent,
-    DemoComponent
+    DemoComponent,
+    CompanyComponent,
+    CompaniesComponent
   ],
   imports: [
     BrowserModule,

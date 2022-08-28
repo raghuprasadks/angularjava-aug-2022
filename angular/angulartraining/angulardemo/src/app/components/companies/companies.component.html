@@ -1,0 +1,19 @@
+<h1>Company Master</h1>
+
+<app-company (addCompanyEvent)="addCompany($event)"></app-company>
+
+<h1>List of Companies</h1>
+
+<table>
+    <tr>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Location</th>
+    </tr>
+    <tr *ngFor="let company of companies">
+        <td>{{company.code}}</td>
+        <td>{{company.name}}</td>
+        <td>{{company.location}}</td>
+    </tr>    
+</table>
+
