@@ -1,3 +1,6 @@
 <p>parent works!</p>
+<label>Message from parent</label>
+<input type="text" name="parentmsg" #msgParent>
+<button (click)="postMessage(msgParent.value)">Post</button>
 
 <app-child [childMessage]="msgFromParent"></app-child>

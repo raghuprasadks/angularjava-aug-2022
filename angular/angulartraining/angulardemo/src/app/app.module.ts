@@ -15,6 +15,9 @@ import { TodosComponent } from './components/todos/todos.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ParentComponent } from './components/parent/parent.component';
 import { ChildComponent } from './components/child/child.component';
+import { DummyComponent } from './components/dummy/dummy.component';
+import { PromiseComponent } from './components/promise/promise.component';
+import { DemoComponent } from './components/demo/demo.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { ChildComponent } from './components/child/child.component';
     TemplateformComponent,
     TodosComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    DummyComponent,
+    PromiseComponent,
+    DemoComponent
   ],
   imports: [
     BrowserModule,
