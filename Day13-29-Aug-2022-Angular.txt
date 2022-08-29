@@ -57,4 +57,28 @@ npm i bootstrap
 angular.json
 path of the bootstrap in style
 
+http://localhost:4200/product/apple
+Create following components
+sign Up
+Login
+and provide link in 
+header component
+
+
+Template driven form
+
+
+Reactive form
+model driven  form
+
+
+Step - 
+
+import ReactiveFormsModele
+in app.module.ts
+add it under imports
+
+
+
+
 
