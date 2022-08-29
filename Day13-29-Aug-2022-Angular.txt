@@ -1,0 +1,60 @@
+Agenda:
+Router
+Reactive Forms
+pipes
+ngClass
+ngSwitch
+
+
+Routes
+SPA - Single Page Application (SPA)
+
+Componets
+app.component.html
+
+Web site
+
+aboutus.html
+services.html
+contact.html
+<nav>
+<a hef="aboutus.html">
+</nav>
+
+index.html
+Routing
+personal laptop
+download git and install
+Self practive
+github
+https://www.youtube.com/watch?v=SWYqp7iY_Tc
+https://www.w3schools.com/css/css3_flexbox.asp
+
+Execution policy
+in power shell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Step 1 : new project for routing
+ng new ngadvanced 
+Angular routing yes
+Step 2 : 
+ng serve --open
+
+Step 3 : 
+Create components
+ng g c aboutus
+ng g c contact
+ng g c header
+ng g c home
+ng g c product
+ng g c products
+
+applying bootstrap cdn inside
+index.html head section
+
+npm i bootstrap
+
+angular.json
+path of the bootstrap in style
+
+

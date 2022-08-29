@@ -1,0 +1,22 @@
+ todo
+
+todo.component.ts
+
+ng g c components/todo
+four files it generates
+todo.comp.ts
+todo.comp.html
+todo.comp.css
+todo.comp.spec.ts
+updated app.module.ts
+
+Real example of parent and child
+
+Step 1 - create company.ts model
+done
+Step 2 - create company component
+child component
+ng g c components/company
+Step 3 - create companies component
+which is a parent component
+ng g c components/companies
