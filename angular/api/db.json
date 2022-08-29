@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "raghu",
+      "email": "prasadraghuks@gmail.com",
+      "mobile": "9845547471",
+      "password": "test123",
+      "id": 1
+    },
+    {
+      "name": "ravi",
+      "email": "ravi@gmail.com",
+      "mobile": "9845547472",
+      "password": "test@123",
+      "id": 2
+    }
+  ]
+}
