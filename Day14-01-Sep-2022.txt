@@ -14,6 +14,7 @@ digits in decimals places
 
 creating custom pipes
 ng g p <pipename>
+ng g p pipes/ExponentialStrength
 
 
 
