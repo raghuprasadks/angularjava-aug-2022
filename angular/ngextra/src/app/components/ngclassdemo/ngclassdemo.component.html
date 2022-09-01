@@ -1,0 +1,42 @@
+<h1>ngclassdemo </h1>
+
+<h1 class="text-success">Regular css class</h1>
+<h1 [ngClass]="{'text-success':true}">ngClass success</h1>
+
+<h1>ngclass - dynamic class - method 1</h1>
+<ul *ngFor="let person of people">
+    <li [ngClass]="{
+        'text-success':person.country === 'UK',
+        'text-primary':person.country === 'USA',
+        'text-danger':person.country === 'HK'
+      }"> {{ person.name }} ({{ person.country }})
+    </li>
+</ul>
+
+<!--[ngClass]="{'text-success':person.country === 'UK'}" -->
+<h1>ngclass - dynamic class - method 2</h1>
+<ul *ngFor="let person of people">
+    <li [ngClass]="{
+        'text-success':person.country === 'UK'
+      }"> {{ person.name }} ({{ person.country }})
+    </li>
+</ul>
+
+<h1>class - alternative</h1>
+<ul *ngFor="let person of people">
+    <li [class.text-success]="person.country === 'UK'"
+        [class.text-primary]="person.country === 'USA'"
+        [class.text-danger]="person.country === 'HK'">{{ person.name }} ({{ person.country }})
+    </li>
+  </ul>
+
+<!--
+  <h1>ngclass - dynamic class - method 3</h1>
+<ul *ngFor="let person of people">
+    <li [ngClass]="{
+        'getClass(person.country)':person.country === 'UK'
+      }"> {{ person.name }} ({{ person.country }})
+    </li>
+</ul>
+
+-->

@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ReactiveFormValidationComponent } from './components/reactive-form-validation/reactive-form-validation.component';
+import { NgclassdemoComponent } from './components/ngclassdemo/ngclassdemo.component';
+import { NgswitchdemoComponent } from './components/ngswitchdemo/ngswitchdemo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ReactiveFormComponent,
-    ReactiveFormValidationComponent
+    ReactiveFormValidationComponent,
+    NgclassdemoComponent,
+    NgswitchdemoComponent
   ],
   imports: [
     BrowserModule,
