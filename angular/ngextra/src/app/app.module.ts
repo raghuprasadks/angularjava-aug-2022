@@ -9,6 +9,7 @@ import { ReactiveFormValidationComponent } from './components/reactive-form-vali
 import { NgclassdemoComponent } from './components/ngclassdemo/ngclassdemo.component';
 import { NgswitchdemoComponent } from './components/ngswitchdemo/ngswitchdemo.component';
 import { PipesdemoComponent } from './components/pipesdemo/pipesdemo.component';
+import { ExponentialStrengthPipe } from './pipes/exponential-strength.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PipesdemoComponent } from './components/pipesdemo/pipesdemo.component';
     ReactiveFormValidationComponent,
     NgclassdemoComponent,
     NgswitchdemoComponent,
-    PipesdemoComponent
+    PipesdemoComponent,
+    ExponentialStrengthPipe
   ],
   imports: [
     BrowserModule,
