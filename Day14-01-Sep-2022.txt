@@ -1,7 +1,21 @@
 Agenda:
 1. Verification of the assignment
 2. Reactive Form Validation
-3. Pipes
-4. ngClass
-5. ngSwitch
+3. ngClass
+4. ngSwitch
+5. Pipes
+transforming data
+lowercase
+uppercase
+date formats
+built-in pipes
+currency
+digits in decimals places
+
+creating custom pipes
+ng g p <pipename>
+
+
+
 6. Life cycle hooks
+https://remotestack.io/angular-custom-filter-search-pipe-example-tutorial/

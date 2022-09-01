@@ -1,0 +1,49 @@
+<h1>Pipes Demo</h1>
+
+<h2>Case</h2>
+
+<h3>Upper Case - {{course|uppercase}}</h3>
+<h3>Lower Case - {{course|lowercase}}</h3>
+<h3>Title Case - {{course|titlecase}}</h3>
+
+
+<h2>Currency</h2>
+
+<h3>Default currency - {{a|currency}}</h3>
+ <!--output 'INR ₹0.26'-->
+ <h2>a in INR {{a | currency:'INR'}}</h2>
+
+ <!--output 'INR0.26'-->
+ <h2>A: {{a | currency:'INR':'code'}}</h2>
+
+ <!--output 'CA$0,001.35'-->
+ <p>B: {{b | currency:'CAD':'symbol':'4.2-2'}}</p>
+
+ <h3>Date filter</h3>
+ <h3>Today with out applying pipe {{today}}</h3>
+ <h3>date pipe {{today|date}}</h3>
+ <h3>date pipe - short {{today|date:'short'}}</h3>
+
+ <h3>date pipe - shortTime {{ today | date:'shortTime' }} </h3>
+<h3>Decimal pipe</h3>
+ <p>
+    No specified formatting:
+    {{pi | number}}
+    <!--output: '3.142'-->
+  </p>
+
+  <p>
+    With digitsInfo parameter specified:
+    {{pi | number:'4.1-5'}}
+    <!--output: '0,003.14159'-->
+  </p>
+
+  <p>
+    With digitsInfo and
+    locale parameters specified:
+    {{pi | number:'4.1-5':'fr-FR'}}
+    <!--output: '0 003,14159'-->
+  </p>
+
+ 
+
