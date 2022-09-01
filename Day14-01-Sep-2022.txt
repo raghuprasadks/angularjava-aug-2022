@@ -16,6 +16,9 @@ creating custom pipes
 ng g p <pipename>
 ng g p pipes/ExponentialStrength
 
+ng g p pipes/search-filter
+ng g c components/search
+
 
 
 6. Life cycle hooks

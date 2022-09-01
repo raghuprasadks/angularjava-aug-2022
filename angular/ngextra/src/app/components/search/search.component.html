@@ -1,0 +1,15 @@
+<div class="container mt-5" style="max-width: 550px;">
+
+    <div class="form-group">
+      <input type="text" class="form-control mb-4" placeholder="Search" [(ngModel)]="query" id="listSearch">
+    </div>
+  
+    <div class="card mb-1" *ngFor="let data of Students | searchFilter: query">
+      <div class="card-body">
+        <h5 class="card-title">{{data.name}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{data.name}}</h6>
+        <p class="card-text">{{data.email}}</p>
+      </div>
+    </div>
+  
+  </div>

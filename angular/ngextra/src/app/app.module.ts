@@ -10,7 +10,9 @@ import { NgclassdemoComponent } from './components/ngclassdemo/ngclassdemo.compo
 import { NgswitchdemoComponent } from './components/ngswitchdemo/ngswitchdemo.component';
 import { PipesdemoComponent } from './components/pipesdemo/pipesdemo.component';
 import { ExponentialStrengthPipe } from './pipes/exponential-strength.pipe';
-
+import { SearchFilterPipe } from './pipes/search-filter.pipe';
+import { SearchComponent } from './components/search/search.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,12 +21,15 @@ import { ExponentialStrengthPipe } from './pipes/exponential-strength.pipe';
     NgclassdemoComponent,
     NgswitchdemoComponent,
     PipesdemoComponent,
-    ExponentialStrengthPipe
+    ExponentialStrengthPipe,
+    SearchFilterPipe,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule 
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
