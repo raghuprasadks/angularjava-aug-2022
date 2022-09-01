@@ -1,0 +1,7 @@
+Agenda:
+1. Verification of the assignment
+2. Reactive Form Validation
+3. Pipes
+4. ngClass
+5. ngSwitch
+6. Life cycle hooks

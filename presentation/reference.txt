@@ -5,13 +5,7 @@ https://github.com/techiediaries/ng-crm
 
 https://github.com/wavetutorials
 https://fireship.io/lessons/sharing-data-between-angular-components-four-methods/
-
-
-6441358000
-fr
-sr843192278
-cybercrime police
-vandana
-
 https://appdividend.com/2022/06/22/angular-form-control/
+https://www.techiediaries.com/angular-bootstrap/
+https://www.tutsmake.com/login-and-registration-form-in-php-mysql-using-xampp/
 
