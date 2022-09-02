@@ -8,4 +8,6 @@ https://fireship.io/lessons/sharing-data-between-angular-components-four-methods
 https://appdividend.com/2022/06/22/angular-form-control/
 https://www.techiediaries.com/angular-bootstrap/
 https://www.tutsmake.com/login-and-registration-form-in-php-mysql-using-xampp/
+https://www.syncfusion.com/blogs/post/pure-and-impure-functions-in-javascript-a-complete-guide.aspx#:~:text=Pure%20functions%20return%20the%20same,can%20execute%20without%20producing%20anything.
+https://ngrx.io/
 

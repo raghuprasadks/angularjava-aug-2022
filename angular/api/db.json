@@ -15,5 +15,12 @@
       "id": 2
     }
   ],
-  "helpdesk": []
+  "helpdesk": [],
+  "posts": [
+    {
+      "title": "post 3",
+      "body": "post 3 body",
+      "id": 3
+    }
+  ]
 }

@@ -13,6 +13,11 @@ import { ExponentialStrengthPipe } from './pipes/exponential-strength.pipe';
 import { SearchFilterPipe } from './pipes/search-filter.pipe';
 import { SearchComponent } from './components/search/search.component';
 import { FormsModule } from '@angular/forms';
+import { LifecycleparentComponent } from './components/lifecycleparent/lifecycleparent.component';
+import { LifecyclechildComponent } from './components/lifecyclechild/lifecyclechild.component';
+import { PostsComponent } from './components/posts/posts.component';
+import { PostFormComponent } from './components/post-form/post-form.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,13 +28,18 @@ import { FormsModule } from '@angular/forms';
     PipesdemoComponent,
     ExponentialStrengthPipe,
     SearchFilterPipe,
-    SearchComponent
+    SearchComponent,
+    LifecycleparentComponent,
+    LifecyclechildComponent,
+    PostsComponent,
+    PostFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
