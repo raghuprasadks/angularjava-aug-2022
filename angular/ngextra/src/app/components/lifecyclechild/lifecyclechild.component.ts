@@ -15,6 +15,7 @@ AfterViewChecked,
 OnDestroy {
 logs: string[] = [];
 @Input() count = 0;
+childmessge:string ="hi from child"
 
 // Invoked when Angular creates the component
 constructor() {

@@ -1,0 +1,79 @@
+ng add @ngrx/store@latest
+
+ng new ngrxdemo
+
+counter
+counter-buttons
+counter-output
+
+bootstrap
+
+
+Agenda:
+ngrx - redux - state management
+testing in angular
+
+statement
+
+Loan management
+Raise request for getting loan
+Fill necessary forms
+Submit some documents
+deposit/property
+application status - 
+submitted
+verification is progress
+clarification
+clarify
+approval
+approved
+
+multiple components
+services,input,output
+central storage or repository
+to track status
+
+Redux  - managing the status in
+the form of a store single source of truth
+rxjs - implements redux
+
+react - flux/redux
+flux multiple storage for managing status
+redux - single storage for managing the status
+pure function
+... spread operator
+ng add @ngrx/store@latest
+https://www.freecodecamp.org/news/what-is-a-pure-function-in-javascript-acb887375dfe/
+
+
+1. create new project 
+ng new ngrxdemo
+2. cd ngrxdemo
+3. ng add @ngrx/store@latest
+4. right click on app folder
+create following files
+1.counter.actions.ts
+paste the code
+2. counter.reducer.ts
+paste the code
+
+5. ng g c my-counter
+paste the code 
+6. app.module.ts
+update following section
+StoreModule.forRoot({ count: counterReducer })
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

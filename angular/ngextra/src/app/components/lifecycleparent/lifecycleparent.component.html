@@ -2,3 +2,5 @@
 <button (click)="flipShowLifeCycleState()">{{showLifeCycleDemo ? 'End Lifecycle' : 'Start Lifecycle'}}</button>
 <button (click)="incrementCount()">Increment Counter</button>
 <app-lifecyclechild *ngIf="showLifeCycleDemo" [count]="count"></app-lifecyclechild>
+
+<h1>Child Message :: {{messageFromChild}}</h1>

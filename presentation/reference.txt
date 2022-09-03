@@ -11,3 +11,13 @@ https://www.tutsmake.com/login-and-registration-form-in-php-mysql-using-xampp/
 https://www.syncfusion.com/blogs/post/pure-and-impure-functions-in-javascript-a-complete-guide.aspx#:~:text=Pure%20functions%20return%20the%20same,can%20execute%20without%20producing%20anything.
 https://ngrx.io/
 
+npm install @ngrx/store --save
+ng add @ngrx/store@latest
+https://github.com/leelanarasimha/ngrx-counter
+
+npm config set legacy-peer-deps true
+
+npm install -g @angular/cli latest
+
+
+
