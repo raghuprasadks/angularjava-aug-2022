@@ -56,7 +56,6 @@ create following files
 paste the code
 2. counter.reducer.ts
 paste the code
-
 5. ng g c my-counter
 paste the code 
 6. app.module.ts
