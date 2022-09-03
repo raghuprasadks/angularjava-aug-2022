@@ -61,6 +61,22 @@ paste the code
 6. app.module.ts
 update following section
 StoreModule.forRoot({ count: counterReducer })
+
+For further study
+
+https://github.com/leelanarasimha/ngrx-counter
+download zip file
+and unzip
+go to ngrx-counter folder
+
+git clone https://github.com/leelanarasimha/ngrx-counter.git
+npm install
+ng serve --open
+
+https://www.youtube.com/watch?v=3WI5BEXVkmE&list=PL_euSNU_eLbdg0gKbR8zmVJb4xLgHR7BX
+
+
+
  
 
 
