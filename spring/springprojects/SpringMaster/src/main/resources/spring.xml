@@ -12,4 +12,11 @@
         <property name="name" value="Sundar"></property>
         <property name="location" value="Bengaluru"></property>
     </bean>
+
+    <bean id="employee" class ="beans.Employee">
+        <constructor-arg name="code" type="int" value="100"></constructor-arg>
+        <constructor-arg name="name" type="String" value="Ravi"></constructor-arg>
+        <constructor-arg name="dept" type="String" value="IT"></constructor-arg>
+    </bean>
+
 </beans>

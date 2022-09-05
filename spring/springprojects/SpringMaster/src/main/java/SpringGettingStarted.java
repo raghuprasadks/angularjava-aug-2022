@@ -1,4 +1,5 @@
 import beans.Customer;
+import beans.Employee;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -21,8 +22,8 @@ public class SpringGettingStarted {
         System.out.println(customerBeanwithId.info());
         System.out.println("Customer Bean with properties");
         System.out.println("Id : "+customerBean.getId() + " Name :" +customerBean.getName() +" Location : "+customerBean.getLocation());
-
-
-
-    }
+        System.out.println("Bean with constructor");
+        Employee employeeBean = applicationContext.getBean(Employee.class);
+        System.out.println(employeeBean.info());
+   }
 }
