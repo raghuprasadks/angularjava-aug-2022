@@ -1,0 +1,46 @@
+Java - J2SE - JSE - Java Standard Edition
+Java - J2EE - JEE - Java Enterprise Edition
+Java - J2ME - JME - Java Micro Edition
+Java - FX - Rich Web Applications
+
+JDBC - JEE
+Servlets
+EJB - Enterprise Java Beans
+Session management/transaction management
+
+Spring
+DI - Dependency Injection
+IOC - Inversion of Control
+Class and Object
+Template - 
+Dependent objects
+
+Employee
+Address
+
+Tight coupling
+
+public Employee (){
+//Address addr = new Address()
+}
+
+//loose coupling
+public Employee (Address addrees){
+//Address addr = new Address()
+}
+
+1. Create a project SpringMaster (maven project)
+2. Create beans package
+3. Create a Customer bean
+4. Add info()
+5. create spring.xml in resouces
+6. Register the customer bean under beans
+
+
+
+
+
+
+
+
+
