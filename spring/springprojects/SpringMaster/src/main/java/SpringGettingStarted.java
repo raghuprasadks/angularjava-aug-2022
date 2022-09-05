@@ -12,8 +12,17 @@ public class SpringGettingStarted {
         System.out.println(customer.info());
         System.out.println("Java Spring- create customer object");
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
+        System.out.println("Customer Bean with class name");
         Customer customerBean = applicationContext.getBean(Customer.class);
         System.out.println(customerBean.info());
+
+        System.out.println("Customer Bean with id");
+        Customer customerBeanwithId = (Customer)applicationContext.getBean("customer");
+        System.out.println(customerBeanwithId.info());
+        System.out.println("Customer Bean with properties");
+        System.out.println("Id : "+customerBean.getId() + " Name :" +customerBean.getName() +" Location : "+customerBean.getLocation());
+
+
 
     }
 }
