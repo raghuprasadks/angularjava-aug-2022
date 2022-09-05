@@ -1,3 +1,4 @@
+import beans.Address;
 import beans.Customer;
 import beans.Employee;
 import org.springframework.context.ApplicationContext;
@@ -25,5 +26,8 @@ public class SpringGettingStarted {
         System.out.println("Bean with constructor");
         Employee employeeBean = applicationContext.getBean(Employee.class);
         System.out.println(employeeBean.info());
+        System.out.println("Address as a parameter to Employee constructor");
+        Address address = employeeBean.getAddress();
+        System.out.println("Building name "+address.getBuildingname());
    }
 }

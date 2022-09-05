@@ -6,17 +6,21 @@
     <bean id="customer" class="beans.Customer">
 </bean>
 -->
-
     <bean id="customer" class="beans.Customer">
         <property name="id" value="1"></property>
         <property name="name" value="Sundar"></property>
         <property name="location" value="Bengaluru"></property>
     </bean>
-
     <bean id="employee" class ="beans.Employee">
         <constructor-arg name="code" type="int" value="100"></constructor-arg>
         <constructor-arg name="name" type="String" value="Ravi"></constructor-arg>
         <constructor-arg name="dept" type="String" value="IT"></constructor-arg>
+        <constructor-arg name="address" ref="address"></constructor-arg>
     </bean>
 
+    <bean id="address" class ="beans.Address">
+        <constructor-arg name="buildingname" type="String" value="Indushankara"></constructor-arg>
+        <constructor-arg name="street" type="String" value="23 Cross"></constructor-arg>
+        <constructor-arg name="location" type="String" value="Jakkuru"></constructor-arg>
+    </bean>
 </beans>
