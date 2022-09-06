@@ -20,4 +20,37 @@ public class ProductController {
     public List<Product> getProduct(){
         return this.productList;
     }
+
+    @DeleteMapping("/products/{id}")
+    public boolean deleteProduct(@PathVariable("id") int id){
+        System.out.println("deleteDepartments");
+        boolean isFound = false;
+        for (Product product: this.productList){
+            if (product.getId()==id){
+                this.productList.remove(product);
+                isFound=true;
+                break;
+            }
+        }
+        return isFound;
+
+    }
+    @PutMapping("/products/{id}")
+    public String updateProduct(@RequestBody Product product,@PathVariable("id") int id){
+        System.out.println("updateProduct");
+        boolean isFound = false;
+        String msg = "";
+        for (Product prod: this.getProduct()){
+            if (prod.getId() ==id){
+                int index = this.getProduct().indexOf(prod);
+                this.getProduct().set(index,prod);
+                isFound=true;
+            }
+        }
+        if(isFound)
+            msg=product.getName() + " updated successfully";
+        else
+            msg=product.getName() + " is not updated successfully";
+        return msg;
+    }
 }
