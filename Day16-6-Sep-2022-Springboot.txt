@@ -1,0 +1,22 @@
+Agenda:
+Spring boot
+Spring boot project using
+the spring boot initializer
+Restful api
+
+Maven project
+Spring framework
+DI - dependency injection
+IOC - Inversion of Control
+spring.xml
+java based annotatations
+starter framework - template
+Web API - Restful Webservices
+Databases
+autoconfiguration
+opinion
+end point
+localhost:8080/api/products
+CRUD
+entity
+Product

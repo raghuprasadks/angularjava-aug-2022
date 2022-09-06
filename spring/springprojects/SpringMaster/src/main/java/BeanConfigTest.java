@@ -10,6 +10,5 @@ public class BeanConfigTest {
         ApplicationContext context =  new AnnotationConfigApplicationContext(BeanConfiguration.class);
         Product product = context.getBean(Product.class);
         System.out.println(product.info());
-
     }
 }
