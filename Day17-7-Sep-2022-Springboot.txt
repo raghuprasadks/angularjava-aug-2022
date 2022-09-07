@@ -6,3 +6,13 @@ Dependencies
 Web
 Data JPA
 MySQL
+
+Backend API
+Front end
+
+create new angular project
+tutorials
+create model tutorial under models folder
+create component tutorialform
+create service tutorialservice
+url : http://localhost:8080/api/tutorials
