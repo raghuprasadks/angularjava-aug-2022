@@ -20,3 +20,44 @@ localhost:8080/api/products
 CRUD
 entity
 Product
+
+write following api
+localhost:8080/api/products/1
+display product with id 1
+
+localhost:8080/api/products/sony
+display all the products of sony
+
+localhost:8080/api/products/apple
+display all products of apple
+
+SQL - Structured Query Language
+RDBMS - Relational Database Management System
+Oracle,Sybase,DB2,MS-SQL Server
+My SQL,Postgres
+CRUD 
+Queries
+database
+ecommerce
+
+customer,
+product
+order
+ordertails
+supplier
+shipper
+
+1. Display customers of Country 'Germany'
+SELECT * FROM customers where Country='Germany'
+2. Display the count of customers of Germany
+SELECT count(*) as customercount FROM customers where Country='Germany'
+
+3. Display countriwise count of customers
+SELECT country,count(*) as customerCount FROM Customers group by country;
+
+4. Write a query to list the orders placed by
+customers of Germany
+
+5.Write a query to display count or orders placed
+by customer of Germany
+

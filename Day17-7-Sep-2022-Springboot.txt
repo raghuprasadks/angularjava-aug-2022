@@ -1,0 +1,8 @@
+Agenda:
+JPA- Java Persistance API
+ORM - Object Reational Mapping
+
+Dependencies
+Web
+Data JPA
+MySQL

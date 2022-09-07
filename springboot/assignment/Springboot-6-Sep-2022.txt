@@ -1,0 +1,27 @@
+1. Write following API's 
+for a commonwealth games.
+
+Consider following entity for cwg
+code,name-string,year,gold,silver,bronze,total
+
+a. API to post the data
+localhost:8080/api/cwc
+b. API to display all data
+localhost:8080/api/cwc
+3. API to delete data of a specific
+country
+localhost:8080/api/cwc/<id>
+4. API to update data of a specific
+country
+localhost:8080/api/cwc/<id>
+5. Display the list of coutries
+for a specific year
+localhost:8080/api/cwc/year/<year>
+6. Display the maximum gold won 
+by a country considering all
+the cwc games
+localhost:8080/api/cwc/maxgold
+
+
+
+
