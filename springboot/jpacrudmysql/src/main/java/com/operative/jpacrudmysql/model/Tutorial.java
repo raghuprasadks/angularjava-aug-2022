@@ -15,12 +15,12 @@ public class Tutorial {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getDescription() {
@@ -42,7 +42,7 @@ public class Tutorial {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String name;
+    private String title;
     private String description;
     private boolean published;
 
@@ -50,8 +50,8 @@ public class Tutorial {
 
     }
 
-    public Tutorial(String name,String description,boolean published){
-        this.name = name;
+    public Tutorial(String title,String description,boolean published){
+        this.title = title;
         this.description=description;
         this.published=published;
     }

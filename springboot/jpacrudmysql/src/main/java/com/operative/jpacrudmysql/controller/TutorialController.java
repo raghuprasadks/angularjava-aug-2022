@@ -30,14 +30,14 @@ public class TutorialController {
     }
 
     @GetMapping("/tutorials")
-    public ResponseEntity<List<Tutorial>> getAllTutorials(@RequestParam(required=false) String name){
+    public ResponseEntity<List<Tutorial>> getAllTutorials(@RequestParam(required=false) String title){
         List<Tutorial> tutorials = new ArrayList<Tutorial>();
         try{
-            if(name==null)
+            if(title==null)
             {
                 tutorialRepository.findAll().forEach(tutorials::add);
             }else{
-                tutorialRepository.findByNameContaining(name).forEach(tutorials::add);
+                tutorialRepository.findByTitleContaining(title).forEach(tutorials::add);
             }
             if(tutorials.isEmpty()){
                 return new ResponseEntity<>(HttpStatus.NO_CONTENT);
@@ -63,7 +63,7 @@ public class TutorialController {
         Optional<Tutorial> tutorialData = tutorialRepository.findById(id);
         if (tutorialData.isPresent()) {
             Tutorial _tutorial = tutorialData.get();
-            _tutorial.setName(tutorial.getName());
+            _tutorial.setTitle(tutorial.getTitle());
             _tutorial.setDescription(tutorial.getDescription());
             _tutorial.setPublished(tutorial.isPublished());
             return new ResponseEntity<>(tutorialRepository.save(_tutorial), HttpStatus.OK);

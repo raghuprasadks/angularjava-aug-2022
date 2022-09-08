@@ -1,0 +1,9 @@
+1. Download the code from the git
+https://github.com/bezkoder/angular-12-crud
+2. Unzip and extract
+3. Get inside the folder where you can find
+package.json
+4.npm install
+5. Check the service and verify the backend api link
+6. Run backend application
+7. ng serve --open

@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface TutorialRepository extends JpaRepository<Tutorial,Long> {
-    List<Tutorial> findByNameContaining(String title);
+    List<Tutorial> findByTitleContaining(String title);
     List<Tutorial> findByPublished(boolean b);
 }
