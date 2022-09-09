@@ -1,0 +1,21 @@
+Spring java framework
+DI
+IOC
+
+bean has score
+singleton
+prototype 
+ApplicationContext
+
+SpringBoot
+DispatcherServlet
+
+
+Controller
+Service
+interface/implementation
+DataLayer
+
+
+
+
