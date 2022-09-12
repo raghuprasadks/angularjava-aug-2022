@@ -24,9 +24,9 @@ public class EntitymanagerdemoApplication implements CommandLineRunner {
 		System.out.println("run");
 		//createContact();
 		//updateContact();
-		listContacts();
-		getContact();
-		deleteContact();
+//		listContacts();
+//		getContact();
+//		deleteContact();
 	}
 
 	private void createContact() {

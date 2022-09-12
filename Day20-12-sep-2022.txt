@@ -1,0 +1,55 @@
+https://howtodoinjava.com/hibernate/hibernate-one-to-one-mapping/
+https://github.com/lokeshgupta1981/hibernate/tree/master/hibernate-mappings
+https://github.com/lokeshgupta1981/hibernate
+
+JPA Repository for each entity
+Entity Manager you can do
+CRUD for any entitites
+one to one mapping
+
+customer - address
+
+one to one mapping
+one address for a customer
+customer
+id,name,email,mobile
+id - primary key
+
+address
+addressid, -pk
+street
+location
+zipcode
+custid - Foreign key which refers to id 
+
+of customer
+ 
+customer - order
+
+one to many
+
+customer
+id,name,email,mobile
+id - primary key
+
+Order
+orderid - pk
+orderdate
+status
+
+customerorder
+customerid,orderid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
