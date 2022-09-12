@@ -40,6 +40,13 @@ status
 customerorder
 customerid,orderid
 
+{
+ "firstname":"raghu",
+ "lastname":"prasad",
+"email":"raghu@gmail.com",
+account:[{"accountnumber",100},{"acountnumber":101}]
+}
+
 
 
 
