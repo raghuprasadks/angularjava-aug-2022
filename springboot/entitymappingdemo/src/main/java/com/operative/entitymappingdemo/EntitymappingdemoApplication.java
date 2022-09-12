@@ -11,7 +11,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class EntitymappingdemoApplication implements CommandLineRunner {
-
 	@Autowired
 	AccountRepository accountRepository;
 	@Autowired

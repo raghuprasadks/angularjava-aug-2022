@@ -1,0 +1,27 @@
+<div>
+    <form name="regForm" #regForm="ngForm" (ngSubmit)="register(regForm)">
+        <h1>Template Driven Registration Form</h1>
+        <div>
+            <label>Name</label><br>
+            <input type="text" name="name" ngModel #username="ngModel" required>
+            <p *ngIf="username.touched && username.invalid" [ngClass]="'invalid'">Name is mandatory</p>
+        </div>
+        <div>
+            <label>Email</label><br>
+            <input type="email" name="email" ngModel #useremail="ngModel" required>
+        </div>
+        <div>
+            <label>Password</label><br>
+            <input type="password" name="password" ngModel #userpassword="ngModel" required>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <div>
+            <h1 *ngIf="isSubmitted" [ngStyle]="{'color':'green'}">{{msg}}</h1>
+        </div>
+    </form>
+
+
+    
+</div>
