@@ -1,0 +1,3 @@
+https://www.mongodb.com/nosql-explained
+https://www.infoq.com/articles/data-model-mongodb/
+https://hackernoon.com/building-a-mongodb-nosql-e-commerce-data-model-fn8135bc

@@ -1,0 +1,54 @@
+Databases
+SQL - Structured Query Language
+RDBMS - Relational Database Management System
+tabular
+columns,rows
+
+table - primary key and foreign key
+Structured - RDBMS - Normalizing
+Unstructured-document,images,video,blog
+social media
+Dell - laptop/desktop
+support-team
+problem-when 
+structured data
+blog,social media,
+No SQL - Not Only SQL
+
+1. Start MongoDB server
+Locate folder of mongodb 
+C:\Program Files\MongoDB\Server\4.2\bin
+mongod
+2. Start MongoDB client
+C:\Program Files\MongoDB\Server\4.2\bin
+mongo
+
+3. show dbs
+lists available databases
+
+4. To create a database
+use <dbname>
+use operativedb
+switched to db operativedb
+
+5. To create a collection
+db.createCollection("employee")
+{ "ok" : 1 }
+
+6. To list the available collection
+show collections
+
+7. To insert a single document into the employee collection
+db.employee.insert({"code":1,"name":"ranga","dept":"IT","desg":"SE","salary":40000})
+
+WriteResult({ "nInserted" : 1 })
+
+8. To display document in a collection
+db.employee.find()
+{ "_id" : ObjectId("6325a45e28a4590af33e9b66"), "code" : 1, "name" : "ranga", "dept" : "IT", "desg" : "SE", "salary" : 40000 }
+
+9. To format the document in the collection
+db.employee.find().pretty()
+
+
+
